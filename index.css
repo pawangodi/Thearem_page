@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: "Gilroy-Regular";
+}
+
+.dashboard-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+.aside-container{
+    width: 243px;
+    height: 1226px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.logo{
+    margin-top: 40px;
+    width: 120px;
+    height: 30px;
+    margin-bottom: 100px;
+}
+
+.nav-menu-conatiner{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid green; */
+    width: 200px;
+}
+
+
+.link{
+    text-decoration: none;
+    /* margin-bottom: 20px; */
+    display: flex;
+    align-items: center;
+    padding: 6px 0 6px 12px;
+    margin-bottom: 8px;
+}
+
+a.link:hover{
+    background-color: rgba(28, 210, 173, 0.1);
+}
+
+.image-icon{
+    width: 19px;
+    height: 19px;
+}
+
+.menu-label{
+    margin: 10px;
+    font-family:"Gilroy-Regular";
+    font-weight: 600;
+    color: #767676;
+    font-size: 16px;
+}
+
+.nav-menu-conatiner-bottom{
+    margin-top: 300px;
+  
+}
+
+
+/* --------------Right Part------ */
+
+.right-main-part{
+    width: 100%;
+    color: #ffff;
+    height: auto;
+    
+}
+
+.header-container{ 
+    height: 200px;
+    background-color: #121E48;
+    padding: 8px;
+
+}
+
+.header-greeting-search-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 32px;
+}
+
+.header-greeting-msg{
+    font-size: 20px;
+    color: #ffff;
+}
+
+.header-name{
+    color: #1CD2AD;
+}
+
+.header-search-profile-container{
+  display: flex;
+  float: right;
+
+}
+
+.search-container{
+    width: 200px;
+ 
+    border-radius: rgba(192, 170, 170, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+::placeholder {
+  color:   #FFFFFF;
+}
+
+
+.header-input{
+    background-color: transparent;
+}
+/* -------------Finance Card---- */
+
+.Finance-overview{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.finance-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.card{
+    width: 250px;
+    height: 100px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    margin-top: 50px;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.finance-card-value{
+    color: #121E48;
+    font-size: 20px;
+    font-weight: 800;
+   
+}
+
+.card-info{
+    color: rgb(131, 128, 124);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-image{
+   align-self: flex-end;
+    width: 40px;
+    height: 40px;
+}
+
+/* -------Main Container-------- */
+
+.main-container{
+    background-color: red;
+}
